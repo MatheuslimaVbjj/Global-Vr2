@@ -1,27 +1,18 @@
-GLOBAL TRAVEL INTERCÂMBIOS — V2 CINEMÁTICA
+Global Travel V4
 
-Arquivos incluídos:
-- globaltravel_cinematic_v2.html
-- globaltravel_logo.svg
+Arquivos:
+- index.html
+- nossos-cursos.html
 - favicon.svg
 
-O que foi feito:
-- visual mais fluido e leve
-- hero com vídeo estudantil
-- vídeo de imigração
-- vídeo de viagem na neve
-- tela de carregamento com logo
-- logo no topo e favicon da aba
-- WhatsApp, Instagram e email já integrados
+O que foi ajustado:
+- português do Brasil
+- slogan: "Seu futuro não tem fronteiras."
+- logo incorporada no topo e no preloader (sem depender de arquivo externo)
+- hero com 3 vídeos alternando automaticamente
+- nova página "Nossos cursos"
+- menu atualizado
+- contatos integrados
 
-Publicação rápida:
-1. Coloque os 3 arquivos na mesma pasta.
-2. Abra o HTML localmente para pré-visualizar.
-3. Para publicar, envie os arquivos para Netlify, Vercel ou GitHub Pages.
-
-Observações:
-- Os vídeos estão apontados para URLs externas do Pexels CDN.
-- Se quiser mais performance e controlo, baixe os MP4 e hospede os vídeos junto do site.
-- O número foi formatado como +351 910 346 159.
-- Instagram usado: @globaltravelintracambios
-- Email usado: globaltravelintracambios@gmail.com
+Observação:
+Os vídeos estão apontando para URLs públicas de stock video.

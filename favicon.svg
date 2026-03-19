@@ -1,31 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">Global Travel Intercâmbios Logo</title>
-  <desc id="desc">Monograma GT com bússola em dourado sobre fundo azul-marinho.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Global Travel Intercâmbios">
   <defs>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f7e4a6"/>
-      <stop offset="45%" stop-color="#d7b267"/>
-      <stop offset="100%" stop-color="#9b6b22"/>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E4C78A"/>
+      <stop offset="100%" stop-color="#C8A35F"/>
     </linearGradient>
-    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
-      <stop offset="0%" stop-color="#15325a"/>
-      <stop offset="100%" stop-color="#08172a"/>
-    </radialGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity="0.25"/>
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.18"/>
     </filter>
   </defs>
-
-  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="120" fill="none"/>
   <g filter="url(#shadow)">
-    <circle cx="256" cy="256" r="166" fill="none" stroke="url(#gold)" stroke-width="10"/>
-    <circle cx="256" cy="256" r="138" fill="none" stroke="url(#gold)" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="10 12"/>
-
-    <path d="M256 86l18 52 52 18-52 18-18 52-18-52-52-18 52-18z" fill="url(#gold)" opacity="0.9"/>
-    <path d="M256 286l20 56 56 20-56 20-20 56-20-56-56-20 56-20z" fill="url(#gold)" opacity="0.9" transform="rotate(180 256 362)"/>
-
-    <path d="M170 150h98c44 0 72 24 72 62 0 37-30 60-76 60h-39v60h-55V150zm55 43v38h35c17 0 27-7 27-19 0-12-10-19-27-19h-35z" fill="#f8fafc"/>
-    <path d="M164 358l56-102h42l56 102h-48l-8-17h-42l-8 17h-48zm71-49h23l-12-26-11 26z" fill="#f8fafc" opacity="0.95"/>
-    <path d="M355 173l-41 56 30 40h-32l-14-19-14 19h-32l30-40-41-56h34l23 33 23-33z" fill="#f8fafc" opacity="0.92"/>
+    <circle cx="248" cy="256" r="126" fill="url(#goldGrad)"/>
+    <circle cx="248" cy="256" r="118" fill="none" stroke="#0F2342" stroke-opacity="0.18" stroke-width="6"/>
+    <path d="M192 184c23-26 58-42 94-40-10 18-7 34 9 47 19 17 23 37 15 58-7 18-4 34 10 46 13 12 26 19 39 19-27 35-80 58-133 54-9-20-27-32-53-35-20-3-34-15-42-35-9-21-5-44 9-67 14-23 16-39 7-47-5-5-4-5 45 0z" fill="#0F2342"/>
+    <path d="M148 262c17 14 32 16 47 11M256 146c3 19 1 36-6 51M330 197c14 8 27 22 38 42M314 330c-14-4-30-3-49 4M204 345c8-17 9-32 3-47" fill="none" stroke="#F6E8C6" stroke-opacity="0.48" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="270" cy="212" rx="185" ry="70" transform="rotate(-26 270 212)" fill="none" stroke="url(#goldGrad)" stroke-width="16"/>
+    <ellipse cx="270" cy="212" rx="185" ry="70" transform="rotate(-26 270 212)" fill="none" stroke="#0F2342" stroke-opacity="0.35" stroke-width="5"/>
+    <path d="M393 108l28-6 49 49-6 28-29-20-10 9 7 23-17 16-15-20-14 3 7-19-15-13 19-8z" fill="#0F2342"/>
+    <path d="M422 143l25 15" stroke="#E4C78A" stroke-width="7" stroke-linecap="round"/>
   </g>
 </svg>
